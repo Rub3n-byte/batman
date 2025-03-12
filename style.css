@@ -45,3 +45,8 @@ img.rest {
 iframe.rest {
     width: 100%;
 }
+
+/* El h1 que tiene como fuente la de Google Font */
+#G_FONT {
+    font-family: "Emblema One", system-ui;
+}
