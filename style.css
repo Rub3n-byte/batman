@@ -8,8 +8,8 @@ html, body {
 body {
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
 }
 
@@ -31,4 +31,14 @@ body {
     color: white;
     max-width: 80%; 
     line-height: 1.6;
+}
+
+#id_rest {
+    padding: 0;
+    margin: 0 25%;
+}
+
+img.rest {
+    width: 100%;
+    padding: 0;
 }
