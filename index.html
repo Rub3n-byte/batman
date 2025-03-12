@@ -155,39 +155,42 @@
             </table>            
         </div>
 
-        <div class="container mt-5">
-            <!-- 
-            Slider de Bootstrap
-            Contiene un carrusel de imágenes con enlaces a páginas de IMDb de diferentes películas de Batman.
-            Incluye controles para navegar entre las imágenes del carrusel.
-            -->
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="https://www.imdb.com/es/title/tt1877830/" target="_blank" class="d-block w-100">
-                            <img src="img/slider01.png" class="d-block w-100" alt="First Slide">
-                        </a>
+        <div id="d_slider">
+            <div class="container mt-5">
+                <!-- 
+                Slider de Bootstrap
+                Contiene un carrusel de imágenes con enlaces a páginas de IMDb de diferentes películas de Batman.
+                Incluye controles para navegar entre las imágenes del carrusel.
+                -->
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.imdb.com/es/title/tt1877830/" target="_blank" class="d-block w-100">
+                                <img src="img/slider01.png" class="d-block w-100" alt="First Slide">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.imdb.com/es/title/tt0468569/?ref_=fn_all_ttl_4" target="_blank" class="d-block w-100">
+                                <img src="img/slider02.png" class="d-block w-100" alt="Second Slide">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.imdb.com/es/title/tt0372784/?ref_=fn_all_ttl_5" target="_blank" class="d-block w-100">
+                                <img src="img/slider03.png" class="d-block w-100" alt="Third Slide">
+                            </a>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <a href="https://www.imdb.com/es/title/tt0468569/?ref_=fn_all_ttl_4" target="_blank" class="d-block w-100">
-                            <img src="img/slider02.png" class="d-block w-100" alt="Second Slide">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="https://www.imdb.com/es/title/tt0372784/?ref_=fn_all_ttl_5" target="_blank" class="d-block w-100">
-                            <img src="img/slider03.png" class="d-block w-100" alt="Third Slide">
-                        </a>
-                    </div>
+                    <!-- Controles del slider -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <!-- Controles del slider -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+        </div>
 </body>
 </html>
