@@ -73,11 +73,13 @@ iframe.rest {
 }
 
 table {
-    border: 5px solid #f3c400;
-    width: 100%;
+    border: 5px solid #f3c400; /* Amarillo y negro de Batman*/
     border-collapse: collapse;
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif; /* Pegan más con Batman */
     background-color: #1c1c1c;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25%;
 }
   
 th, td {
