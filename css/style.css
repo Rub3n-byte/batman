@@ -56,21 +56,21 @@ iframe.rest {
 /* Preguntarle al Alberto si es suficiente */
 @media (max-width: 768px) {
     #p_main {
-        font-size: 1.8em;
+        font-size: 120%;
     }
 
     #G_FONT {
-        font-size: 1.5em;
+        font-size: 120%;
     }
 }
 
 @media (max-width: 480px) {
     #p_main {
-        font-size: 1.5em;
+        font-size: 150%;
     }
 
     #G_FONT {
-        font-size: 1.2em;
+        font-size: 150%;
     }
 }
 
