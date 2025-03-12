@@ -24,12 +24,11 @@ body {
 }
 
 #p_main {
-    padding: 30px;
-    margin: 20px;
+    padding: 0;
+    margin: 0 25%;
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 4em;
+    font-size: 2.2em;
     color: white;
-    max-width: 80%; 
     line-height: 1.6;
 }
 
