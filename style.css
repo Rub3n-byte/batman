@@ -41,3 +41,7 @@ img.rest {
     width: 100%;
     padding: 0;
 }
+
+iframe.rest {
+    width: 100%;
+}
