@@ -71,3 +71,41 @@ iframe.rest {
         font-size: 1.2em;
     }
 }
+
+table {
+    border: 5px solid #f3c400;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Gotham', sans-serif;
+    background-color: #1c1c1c;
+}
+  
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #444444;
+}
+  
+th {
+    background-color: #272727;
+    color: #f3c400;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  
+tr:nth-child(even) {
+    background-color: #333333;
+}
+  
+tr:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+  
+caption {
+    font-size: 1.5rem;
+    margin: 10px;
+    color: #f3c400;
+    text-align: center;
+    font-weight: bold;
+  }
