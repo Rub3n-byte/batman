@@ -50,3 +50,24 @@ iframe.rest {
 #G_FONT {
     font-family: "Emblema One", system-ui;
 }
+
+
+@media (max-width: 768px) {
+    #p_main {
+        font-size: 1.8em;
+    }
+
+    #G_FONT {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    #p_main {
+        font-size: 1.5em;
+    }
+
+    #G_FONT {
+        font-size: 1.2em;
+    }
+}
